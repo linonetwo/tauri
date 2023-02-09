@@ -1,5 +1,12 @@
 # Changelog
 
+## \[2.0.0-alpha.3]
+
+- Use temp file instead of environment variable to pass CLI IPC websocket address to the IDE.
+  - [894a8d06](https://www.github.com/tauri-apps/tauri/commit/894a8d060c12a482a0fc5b3714f3848189b809de) refactor(cli): use temp file to communicate IPC websocket address ([#6219](https://www.github.com/tauri-apps/tauri/pull/6219)) on 2023-02-08
+- Ignore the `gen` folder on the dev watcher.
+  - [cab4ff95](https://www.github.com/tauri-apps/tauri/commit/cab4ff95b98aeac88401c1fed2d8b8940e4180cb) fix(cli): ignore the `gen` folder on the dev watcher ([#6232](https://www.github.com/tauri-apps/tauri/pull/6232)) on 2023-02-09
+
 ## \[2.0.0-alpha.2]
 
 - Fixes `TAURI_*` environment variables for hook scripts on mobile commands.
